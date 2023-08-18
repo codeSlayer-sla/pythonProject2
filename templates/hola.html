@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <label for="username">username:</label>
+        <input type="text" placeholder="juanperez" id="username" maxlength="15" required><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password:" ><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="jaun@gmail.com"><br>
+
+        <label for="phone">phone #:</label>
+        <input type="tel"  id="phone" placeholder="123-456-1245" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="bday">birthdate:</label>
+        <input type="date" id="bday:" ><br>
+
+        <label for="quantity">quantity::</label>
+        <input type="number" id="quantity"  minlength="0" maxlength="99"  value="1" required><br>
+
+        <label for="Mr">Mr:</label>
+        <input type="radio" id="Mr" value="Mr." name="title">
+        <label for="Ms">Ms:</label>
+        <input type="radio" id="Ms" value="Ms." name="title">
+        <label for="phd">phd:</label>
+        <input type="radio" id="phd" value="phd." name="title"> <br>
+
+
+        <label for="Payment">payment:</label>
+        <select id="Payment">
+            <Option value="Visa">Visa:</Option>
+            <Option value="Mastercard">Mastercard:</Option>
+            <Option value="Giftcard">giftcard:</Option>
+
+        </select><br>
+
+        <label for="Subscribe">subscribe:</label>
+        <input type="checkbox"  id="Subscribe"> <br>
+
+        <label for="Comment">comment:</label>
+        <textarea  id="Comment" cols="30" rows="5"></textarea><br>
+
+
+        <label for="File">file:</label>
+        <input type="file" id="File" accept="image/png>, image/jpeg" > <br> <br>
+
+
+        <input type="reset"><br>
+
+
+        <input type="submit"><br>
+
+    </form>
+
+</body>
+</html>
